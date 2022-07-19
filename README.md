@@ -8,8 +8,6 @@ Frequency (TF-IDF) and Document to Vector (Doc2Vec) helps identify which method 
 suited for a small corpus . 
 
 
-
-
 ## Documentation
 
 [Code](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/movie_prediction.html)
@@ -69,7 +67,6 @@ suited for a small corpus .
     and -1 indicates that the vectors are not. (Kedia and Rasu 2020a, Transforming Text into Data 
     Structures).
 
-
 #### K-Means Algorithm
 
 Following the document representation phase and the selection of the similarity measure, the 
@@ -99,9 +96,9 @@ The K-means algorithm works as follows:
 - #### Clustering
 
     Applying the K-means algorithm to the TF-IDF and Doc2Vec data frames containing the vector features assigned to each document creates clusters of news articles.
-## Results
 
-evaluates the goodness of the outputs.
+
+## Results
 
 The K-means clustering results plots show that TF-IDF outperforms Doc2Vec in grouping the thirty news articles into semantically similar clusters. 
 
@@ -124,16 +121,19 @@ The short list of news articles' titles also provide a straightforward way of va
 
 ## Analysis
 
-#### Why TF-IDF outperformed Doc2Vec
+#### Why TF-IDF outperforms Doc2Vec
 
 Doc2Vec is a neural network technique that relies on large datasets to improve its ability to predict a word's semantic patterns within a document and, in turn, predict inter-document similarities. 
 
 In contrast, this paper uses thirty news articles, a considerably low number of documents, and 3257 Word2Vec tokens to create weighted vectors.
 
 The TF-IDF vectorization method performs better on small corpora because it relies on the lexical equivalence of words, meaning that the occurrence of words and their match within a corpus is what contributes to the development of associations between documents, not the semantic meaning of words. 
+
+
 ## Acknowledgements
 
 Thank you to paulhuynh for the source code provided as part of the Northwestern Univerity Natural Language Processing course MSDS 453.
+
 
 ## References
 
