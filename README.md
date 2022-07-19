@@ -10,9 +10,9 @@ suited for a small corpus .
 
 ## Documentation
 
-[Code](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/movie_prediction.html)
+[Code](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/Code.ipynb)
 
-[Data](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/Class_Corpus.csv)
+[Data](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/Corpus.csv)
 
 
 ## Methodology
@@ -33,7 +33,7 @@ suited for a small corpus .
     Method that converts words into numerical vector representations allowing for further analysis using machine learning methods (Kim et al. 2019, 18). 
 
     #### TF-IDF formula
-    ![TF-IDF Formula](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ConfusionMatrix.png)
+    ![TF-IDF Formula](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/tfidf_formula.png)
 
     This unsupervised weighting method assigns a higher weight to frequent words within a document that are scarce across a corpus. 
     Words with higher weights describe the most relevant words in a corpus (Carvalho and Guedes 2020, 4-5).
@@ -58,7 +58,7 @@ suited for a small corpus .
     (Turney and Pantel 2010, 160).
 
     #### Cosine formula
-    ![Cosine Formula](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ConfusionMatrix.png)
+    ![Cosine Formula](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/cosine_similarity_formula.png)
 
     Where d1 and d2 represent the weight of the vectors representing the documents in 
     an n-dimensional space (Kedia and Rasu 2020a, Transforming Text into Data Structures).
@@ -88,10 +88,10 @@ The K-means algorithm works as follows:
     The elbow method does not provide a clear number of K's in this study. K=8 is used as a middle ground number.
 
     ##### Elbow Method TF-IDF
-    ![Cosine Formula](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ConfusionMatrix.png)
+    ![Cosine Formula](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/tfidf_elbow.png)
 
     ##### Elbow Method Doc2Vec
-    ![Cosine Formula](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ConfusionMatrix.png)
+    ![Cosine Formula](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/doc2vec_elbow.png)
 
 - #### Clustering
 
@@ -109,14 +109,14 @@ The short list of news articles' titles also provide a straightforward way of va
 - Completeness: 1.000
 
 #### TF-IDF Plot
-![TF-IDF Plot](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ConfusionMatrix.png)
+![TF-IDF Plot](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/tfidf_cluster_plot.png)
 
 #### Doc2Vec Evaluation Metrics
 - Homogeneity: 0.384
 - Completeness: 0.390
 
 #### Doc2Vec Plot
-![Doc2Vec Plot](https://github.com/patsarmient/NLP_Classification_Twitter-Sentiment-Analysis/blob/main/ROC_Curve.png)
+![Doc2Vec Plot](https://github.com/patsarmient/patsarmient-py_K-Means-Clustering-News-Articles/blob/main/doc2vec_cluster_plot.png)
 
 
 ## Analysis
